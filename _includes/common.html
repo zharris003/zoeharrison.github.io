@@ -1,0 +1,15 @@
+{%- if site.open %}
+<div class="wrapper">
+  {%- include basic.html%}
+  {%- include profile.html %}
+  {%- include experience.html %}
+  {%- include skill.html %}
+  {%- include education.html %}
+  
+</div>
+{%- if site.site_footer %}
+{%- include footer.html %}
+{%- endif %}
+{%- else %}
+{%- include close.html %}
+{%- endif %}
