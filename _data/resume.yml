@@ -14,7 +14,7 @@ contact:
   # programmer
   github:                  # username          | https://github.com/zharris003
 
-summary:
+profile:
   show: true
   order: 1
   title: Summary
